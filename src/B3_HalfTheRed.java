@@ -90,6 +90,7 @@ public class B3_HalfTheRed extends World {
         plane.move(8);
         plane.startingAngle(290);
         plane.move(8);
+
         plane.teleport(614,110);
         plane.startingAngle(70);
         plane.move(8);

@@ -7,7 +7,7 @@ public class B4_MiltonFilter extends World
 
    public void go()
    {
-      plane.loadBackGround("Mickey.jpg");          //*** new method to load a diffrent JPG
+      plane.loadBackGround("IMG_6787.jpeg");          //*** new method to load a diffrent JPG
       System.out.println("This will be printed to the  window. ");
       plane.teleport(0,0);
       plane.showBackGround();                    
@@ -23,14 +23,14 @@ public class B4_MiltonFilter extends World
             green = plane.howMuchGreen(); 
             blue  = plane.howMuchBlue();
          
-            if(red>85 && green >100 && blue>180) //&&green<240 && blue< 100)
+            if(red<190 && green >60 && blue>100) //&&green<240 && blue< 100)
             {
-               plane.setPixelColor(255,128,1);
+               plane.setPixelColor(100,0,100);
             }
             
-            if((red>73 && green>90 && blue>40) && (red<125 && green<115 && blue<60))
+            if((red>73 && green>50 && blue>40) && (red<125 && green<115 && blue<60))
             {
-               plane.setPixelColor(51,51,251);
+               plane.setPixelColor(250,51,100);
             }
          }
       }
